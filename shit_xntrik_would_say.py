@@ -16,8 +16,19 @@ def grab_random_tweet():
 	return random_tweet
 
 def random_quote():
-	wisdom_quotes = ["How do I add hipster to the cloud"
-					]
+	wisdom_quotes = ["How do I add hipster to the cloud",
+			"I'm feeling very sensual today",
+			"My favourite song hasn't even been inveted yet",
+			"I like this beer made from artichokes and kale",
+			"I only drink whisky that's made from animal remains",
+			"The only food I eat is from the floor that my daughter has thrown away",
+			"Let me just get on my Pennyfarthing",
+			"These jeans aren't tight enough for me",
+			"I like VI because I get to spend 2h a day trying to exit the file i'm editing",
+			"I love you",
+			"Ruby is great because it lets me pretend to be a developer",
+			"My favourite tv show is The Cape"
+		]					]
 	return random.choice(wisdom_quotes)
 
 def random_bios():
@@ -34,6 +45,7 @@ def random_bios():
 			"1=1 expert",
 			"i co-authored a book you know",
 			"Professional Box Popper",
+			"hook.js",
 			"bearded gate keeper"
 			]
 	return random.choice(bios)
