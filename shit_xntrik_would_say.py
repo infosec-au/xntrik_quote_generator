@@ -27,8 +27,15 @@ def random_quote():
 			"I like VI because I get to spend 2h a day trying to exit the file i'm editing",
 			"I love you",
 			"Ruby is great because it lets me pretend to be a developer",
-			"My favourite tv show is The Cape"
-		]					]
+			"My favourite tv show is The Cape",				]
+			"You know my browser can see your browser yeah bro?",
+			"people call me big daddy for a reason",
+			"I miss my beard",
+			"Oi, who told me it was a good idea to get rid of my beard omg",
+			"I eat XSS daily bro you got nothin on me",
+			"Did you know I have a book?????? <http://www.amazon.com/Browser-Hackers-Handbook-Wade-Alcorn/dp/1118662091>",
+			"I will out-drum you any day, kiddo",
+			]
 	return random.choice(wisdom_quotes)
 
 def random_bios():
