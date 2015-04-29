@@ -42,6 +42,11 @@ def random_quote():
 			"I eat XSS daily bro you got nothin on me",
 			"Did you know I have a book?????? <http://www.amazon.com/Browser-Hackers-Handbook-Wade-Alcorn/dp/1118662091>",
 			"I will out-drum you any day, kiddo",
+			"When the aliens come, I hope they have good cheese",
+			"I've never seen such a hansom man",
+			"Sometimes I cry when I think about Java",
+			"Did you know that browsers love browsing",
+			"I exclusivly use internet explorer"
 					]
 	return random.choice(wisdom_quotes)
 
