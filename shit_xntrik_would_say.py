@@ -16,7 +16,14 @@ def grab_random_tweet():
 	return random_tweet
 
 def random_quote():
-	wisdom_quotes = ["How do I add hipster to the cloud"
+	wisdom_quotes = ["How do I add hipster to the cloud",
+					 "You know my browser can see your browser yeah bro?",
+					 "people call me big daddy for a reason",
+					 "I miss my beard",
+					 "Oi, who told me it was a good idea to get rid of my beard omg",
+					 "I eat XSS daily bro you got nothin on me",
+					 "Did you know I have a book?????? <http://www.amazon.com/Browser-Hackers-Handbook-Wade-Alcorn/dp/1118662091>",
+					 "I will out-drum you any day, kiddo",
 					]
 	return random.choice(wisdom_quotes)
 
