@@ -17,6 +17,7 @@ def grab_random_tweet():
 
 def random_quote():
 	wisdom_quotes = ["How do I add hipster to the cloud",
+<<<<<<< HEAD
 			"I'm feeling very sensual today",
 			"My favourite song hasn't even been inveted yet",
 			"I like this beer made from artichokes and kale",
@@ -36,6 +37,16 @@ def random_quote():
 			"Did you know I have a book?????? <http://www.amazon.com/Browser-Hackers-Handbook-Wade-Alcorn/dp/1118662091>",
 			"I will out-drum you any day, kiddo",
 			]
+=======
+					 "You know my browser can see your browser yeah bro?",
+					 "people call me big daddy for a reason",
+					 "I miss my beard",
+					 "Oi, who told me it was a good idea to get rid of my beard omg",
+					 "I eat XSS daily bro you got nothin on me",
+					 "Did you know I have a book?????? <http://www.amazon.com/Browser-Hackers-Handbook-Wade-Alcorn/dp/1118662091>",
+					 "I will out-drum you any day, kiddo",
+					]
+>>>>>>> 3f02b7fb582654fba12f4f95b541a283c40bea06
 	return random.choice(wisdom_quotes)
 
 def random_bios():
